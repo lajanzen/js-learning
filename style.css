@@ -1,0 +1,58 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: #e0fbfc;
+  color: #ee6c4d;
+}
+
+#app {
+  background-color: #3d5a80;
+  margin: 0 5em;
+  border-radius: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.title {
+  padding-top: 1em;
+}
+
+.calc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em;
+  column-gap: 2em;
+  row-gap: 1em;
+}
+
+.input {
+  justify-self: stretch;
+  border-radius: 1em;
+}
+
+input::placeholder {
+  padding-left: 0.5em;
+}
+
+.button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 3em;
+  height: 2em;
+  border-radius: 2em;
+  border: none;
+  background-color: #ee6c4d;
+  color: white;
+}
+
+.addButton {
+  justify-self: flex-end;
+}
