@@ -26,15 +26,17 @@ h6 {
 
 .calc {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
   padding: 2em;
   column-gap: 2em;
   row-gap: 1em;
 }
 
 .input {
+  grid-column: span 2;
   justify-self: stretch;
   border-radius: 1em;
+  padding-left: 1em;
 }
 
 input::placeholder {
